@@ -1,0 +1,198 @@
+@import url('http://fonts.cdnfonts.com/css/sen');
+body, footer{ 
+    font-family:"Sen",sans-serif !important;
+}
+footer{
+    font-weight: 400;
+    background-color:#ddf1ff;
+}
+p{  
+    font-size:16px !important;
+}
+h6 {
+    font-size: 20px;
+
+}
+h1 {
+    font-size: 72px;
+    font-weight: 600;
+}
+#img-right {
+    img {
+        max-width:100%;
+    }
+}
+#div-hi {
+    font-size:77px;
+}
+
+#footer-img-container {
+    min-height:366px;
+    background-image: url("../assets/pexels-sindre-strøm-1144176.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+//xs
+@media (max-width:575px){
+    #form-footer, #icons-footer{
+        width:100%;
+        max-width:353px;
+    }
+    #img-info { 
+        max-width: 382px;
+        margin: auto auto; 
+    }
+    #div-hi {
+        max-width:237px;
+    }
+    #main-container {
+        margin-top: 60px;
+        margin-bottom:100px;
+    }
+}
+//sm
+@media (min-width:576px) and (max-width:767px){
+    #form-footer, #icons-footer {
+        width:100%;
+        max-width:353px;
+    }
+    #img-info { 
+        max-width: 382px;
+        margin: auto auto; 
+    }
+    #div-hi {
+        max-width:237px;
+    }
+    #main-container {
+        margin-top: 60px;
+        margin-bottom:100px;
+    }
+}
+//md
+@media (min-width:768px) and (max-width:991px){
+    #form-footer, #icons-footer {
+        width:100%;
+        max-width:353px;
+    }
+    #img-info { 
+        max-width: 382px;
+        margin: auto auto; 
+    }
+    #div-hi{
+        max-width:353px;
+    }
+    #main-container {
+        margin-top: 60px;
+        margin-bottom:100px;
+    }
+}
+//lg above
+@media(min-width:992px) {
+    #banner-top {
+        position:relative;
+        z-index:-1;
+        -webkit-animation: floatBubbleR 1s  normal ease-out;
+        animation: floatBubbleR 1s   normal ease-out;
+    }
+    #form-footer, #icons-footer {
+        width:100%;
+        max-width:353px;
+    }
+    #div-hi {
+        max-width:443px;
+        h1{ 
+            position:relative;
+            font-weight: 600;
+            margin-left:-130px;
+            
+            -webkit-animation: floatBubbleL 1.5s  normal ease-out;
+            animation: floatBubbleL 1.5s   normal ease-out;
+        }
+    }
+    #paragraph {
+        p {
+            max-width: 492px;
+            margin-left:64px;
+        }
+    }
+    #main-container {
+        margin-top: 80px;
+        margin-bottom:100px;
+    }
+    #banner-top {
+        margin-left: -32px;
+    }   
+    #img-right {
+        img {
+            position: relative;
+            margin-top:90px;
+            -webkit-animation: floatBubbleT 1.5s  normal ease-out;
+            animation: floatBubbleT 1.5s   normal ease-out;
+        }
+    }
+    
+}
+//keyframes RL
+@-webkit-keyframes floatBubbleR {
+    0% {
+        right: 500px;
+        opacity:0;
+    }
+    100% {
+        right: 0px;
+        opacity:1;
+    }
+}
+@keyframes floatBubbleR {
+    0% {
+        right: 500px;
+        opacity:0;
+    }
+    100% {
+        right: 0px;
+        opacity:1;
+    }
+}
+//keyframes LR
+@-webkit-keyframes floatBubbleL {
+    0% {
+        left: 500px;
+        opacity:0;
+    }
+    100% {
+        left: 0px;
+        opacity:1;
+    }
+}
+@keyframes floatBubbleL {
+    0% {
+        left: 500px;
+        opacity:0;
+    }
+    100% {
+        left: 0px;
+        opacity:1;
+    }
+}
+//keyframes T
+@-webkit-keyframes floatBubbleT {
+    0% {
+        bottom: 500px;
+        opacity:0;
+    }
+    100% {
+        bottom: 0px;
+        opacity:1;
+    }
+}
+@keyframes floatBubbleT {
+    0% {
+        bottom: 500px;
+        opacity:0;
+    }
+    100% {
+        bottom: 0px;
+        opacity:1;
+    }
+}
