@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("http://fonts.cdnfonts.com/css/sen");
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
 body, footer {
   font-family: "Sen", sans-serif !important;
 }
